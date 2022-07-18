@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 22px;
+}
+body{
+    background-color: #aac;
+}
+header{
+    width: 100vw;
+}
+h1{
+    font-size: 3rem;
+    color: #3ac;
+    text-shadow: 1px 1px 10px #256;
+    margin: auto auto;
+}
+main{
+    display: flex;
+}
+li{
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #256;
+    text-shadow: 1px 1px 10px #256;
+}
+.contenedorProductos{
+    margin: 2rem;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cuadrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-style: oblique;
+    border-radius: 20px;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    transition: 200ms;
+}
+.rojo{
+    background-color: #a00;
+}
+.amarillo{
+    background-color: #cc1;
+}
+.azul{
+    background-color: #05c;
+}
+
+.cuadrado:hover{
+    transform: scale(1.2);
+}
